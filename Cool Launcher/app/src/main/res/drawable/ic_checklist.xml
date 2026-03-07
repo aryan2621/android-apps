@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Checklist: list lines + checkmark -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M 3,5 h 2 v 2 H 3 V 5 z M 3,9 h 2 v 2 H 3 V 9 z M 3,13 h 2 v 2 H 3 V 13 z M 7,5 h 14 v 2 H 7 V 5 z M 7,9 h 14 v 2 H 7 V 9 z M 7,13 h 14 v 2 H 7 V 13 z" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M 10,12 l 2.5,2.5 L 16,11 l -1.4,-1.4 l -2.1,2.1 l -1.1,-1.1 L 10,12 z" />
+</vector>

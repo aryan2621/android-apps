@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "Todar",
+    "slug": "todar-habit-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#58CC02"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.todar.habittracker",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "remote-notification",
+          "remote-notification"
+        ],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png"
+      },
+      "package": "com.todar.habittracker",
+      "permissions": [
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.VIBRATE",
+        "android.permission.WAKE_LOCK"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-dev-client",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/icon.png",
+          "color": "#58CC02",
+          "sound": "./assets/sound/notification.mp3"
+        }
+      ]
+    ],
+    "scheme": "todar",
+    "notification": {
+      "icon": "./assets/images/icon.png",
+      "color": "#58CC02",
+      "androidMode": "default",
+      "androidCollapsedTitle": "Todar Reminder"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c410c456-8c09-41b4-b2ff-05ee955f7ef4"
+      }
+    }
+  }
+}
