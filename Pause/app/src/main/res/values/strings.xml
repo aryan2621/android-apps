@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Pause</string>
+    <string name="service_description">Pause shows a short breathing screen when you open an app you chose to guard. It only notices which app comes to the front. It never reads what is on your screen, and nothing leaves your phone.</string>
+
+    <!-- Home -->
+    <string name="tagline">A breath before the scroll.</string>
+    <string name="setup_title">Turn on Pause</string>
+    <string name="setup_body">Pause needs accessibility access to notice when you open a guarded app. It only sees which app is in front, never what is inside it.</string>
+    <string name="setup_action">Open settings</string>
+    <string name="stopped_today">opens stopped today</string>
+    <string name="reasons_title">When you went ahead</string>
+    <string name="guarded_apps">Guarded apps</string>
+    <string name="no_guarded">No apps guarded yet.</string>
+    <string name="add_apps">Add apps</string>
+    <string name="remove">Remove</string>
+    <string name="add">Add</string>
+    <plurals name="opens_today">
+        <item quantity="one">%d open today</item>
+        <item quantity="other">%d opens today</item>
+    </plurals>
+    <string name="daily_limit">Daily limit</string>
+    <plurals name="daily_limit_body">
+        <item quantity="one">After %1$d open of an app in a day, the pause lasts %2$d seconds.</item>
+        <item quantity="other">After %1$d opens of an app in a day, the pause lasts %2$d seconds.</item>
+    </plurals>
+    <string name="decrease">Fewer</string>
+    <string name="increase">More</string>
+
+    <!-- Pause screen -->
+    <string name="breathe_in">Breathe in</string>
+    <string name="breathe_out">Breathe out</string>
+    <string name="about_to_open">You\'re about to open %s</string>
+    <plurals name="opened_times">
+        <item quantity="one">Opened %d time today</item>
+        <item quantity="other">Opened %d times today</item>
+    </plurals>
+    <string name="over_limit">Past your daily limit, so this pause is longer.</string>
+    <string name="close_app">Close %s</string>
+    <string name="open_anyway">Open anyway</string>
+    <string name="why_now">Why now?</string>
+    <string name="reason_bored">Bored</string>
+    <string name="reason_message">A message</string>
+    <string name="reason_purpose">On purpose</string>
+
+    <!-- Widget -->
+    <string name="widget_name">Opens stopped</string>
+    <string name="widget_description">How many opens Pause stopped today</string>
+    <string name="widget_label">stopped today</string>
+</resources>

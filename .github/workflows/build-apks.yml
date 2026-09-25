@@ -25,6 +25,7 @@ jobs:
         app:
           - { name: "Cool Launcher", dir: "Cool Launcher", slug: cool-launcher }
           - { name: "Instashow", dir: "Instashow", slug: instashow }
+          - { name: "Pause", dir: "Pause", slug: pause }
           - { name: "Tasker", dir: "Tasker", slug: tasker, firebase: true }
     defaults:
       run:
