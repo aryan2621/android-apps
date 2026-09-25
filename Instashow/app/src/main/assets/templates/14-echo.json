@@ -1,0 +1,81 @@
+{
+  "id": "echo",
+  "name": "Echo",
+  "background": {
+    "type": "solid",
+    "colors": [
+      "#0B0B0D"
+    ]
+  },
+  "photo": {
+    "shape": "rect",
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1
+  },
+  "filter": "none",
+  "overlay": "#59000000",
+  "texts": [
+    {
+      "text": "{HERONUM}",
+      "left": 0.06,
+      "top": 0.05,
+      "size": 200,
+      "color": "#D7FF3A",
+      "font": "display",
+      "repeat": 4,
+      "repeatGap": 0.9,
+      "shadow": true
+    },
+    {
+      "text": "{HEROUNIT} {HEROLABEL}",
+      "left": 0.07,
+      "top": 0.66,
+      "size": 44,
+      "color": "#FFFFFF",
+      "font": "bold",
+      "tracking": 0.14,
+      "shadow": true
+    },
+    {
+      "text": "{TITLE} · {DATE}",
+      "left": 0.07,
+      "top": 0.93,
+      "size": 24,
+      "color": "#FFFFFF",
+      "font": "bold",
+      "alpha": 0.6,
+      "tracking": 0.1,
+      "editable": true
+    }
+  ],
+  "stats": [
+    {
+      "stat": "second",
+      "left": 0.07,
+      "top": 0.75,
+      "valueSize": 76,
+      "labelSize": 22,
+      "color": "#FFFFFF",
+      "unitScale": 0.36,
+      "shadow": true
+    },
+    {
+      "stat": "third",
+      "left": 0.52,
+      "top": 0.75,
+      "valueSize": 76,
+      "labelSize": 22,
+      "color": "#FFFFFF",
+      "unitScale": 0.36,
+      "shadow": true
+    }
+  ],
+  "scrim": {
+    "edge": "bottom",
+    "height": 0.4,
+    "color": "#000000",
+    "maxAlpha": 0.7
+  }
+}

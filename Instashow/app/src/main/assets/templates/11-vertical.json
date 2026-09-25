@@ -1,0 +1,78 @@
+{
+  "id": "vertical",
+  "name": "Vertical",
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#FF6B3D",
+      "#B3122E"
+    ],
+    "angle": 160
+  },
+  "photo": {
+    "shape": "rect",
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1
+  },
+  "filter": "punch",
+  "scrim": {
+    "edge": "bottom",
+    "height": 0.6,
+    "color": "#000000",
+    "maxAlpha": 0.75
+  },
+  "texts": [
+    {
+      "text": "{HERONUM}{HEROUNIT}",
+      "left": 0.03,
+      "top": 0.96,
+      "size": 320,
+      "color": "#D7FF3A",
+      "font": "display",
+      "rotate": -90,
+      "maxWidth": 0.85
+    },
+    {
+      "text": "{TITLE}",
+      "left": 0.45,
+      "top": 0.6,
+      "size": 34,
+      "color": "#FFFFFF",
+      "font": "bold",
+      "tracking": 0.18,
+      "editable": true
+    },
+    {
+      "text": "{DATE}",
+      "left": 0.45,
+      "top": 0.915,
+      "size": 24,
+      "color": "#FFFFFF",
+      "font": "bold",
+      "alpha": 0.6,
+      "tracking": 0.2
+    }
+  ],
+  "stats": [
+    {
+      "stat": "second",
+      "left": 0.45,
+      "top": 0.65,
+      "valueSize": 90,
+      "labelSize": 22,
+      "color": "#FFFFFF",
+      "unitScale": 0.34
+    },
+    {
+      "stat": "third",
+      "left": 0.45,
+      "top": 0.77,
+      "valueSize": 90,
+      "labelSize": 22,
+      "color": "#FFFFFF",
+      "unitScale": 0.34
+    }
+  ]
+}

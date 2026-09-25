@@ -1,0 +1,143 @@
+{
+  "id": "topo",
+  "name": "Topo",
+  "needsRoute": true,
+  "background": {
+    "type": "solid",
+    "colors": [
+      "#0E1512"
+    ]
+  },
+  "photo": {
+    "shape": "none",
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1
+  },
+  "shapes": [
+    {
+      "type": "grid",
+      "left": 0,
+      "top": 0,
+      "width": 1,
+      "height": 1,
+      "color": "#FFFFFF",
+      "alpha": 0.05,
+      "count": 12
+    },
+    {
+      "type": "circle",
+      "left": 0.2,
+      "top": 0.1,
+      "width": 0.8,
+      "height": 0.5,
+      "color": "#2EE59D",
+      "stroke": 2,
+      "alpha": 0.08
+    },
+    {
+      "type": "circle",
+      "left": 0.3,
+      "top": 0.16,
+      "width": 0.6,
+      "height": 0.38,
+      "color": "#2EE59D",
+      "stroke": 2,
+      "alpha": 0.08
+    },
+    {
+      "type": "circle",
+      "left": 0.4,
+      "top": 0.22,
+      "width": 0.4,
+      "height": 0.26,
+      "color": "#2EE59D",
+      "stroke": 2,
+      "alpha": 0.08
+    },
+    {
+      "type": "circle",
+      "left": 0.5,
+      "top": 0.28,
+      "width": 0.2,
+      "height": 0.14,
+      "color": "#2EE59D",
+      "stroke": 2,
+      "alpha": 0.08
+    }
+  ],
+  "route": {
+    "left": 0.08,
+    "top": 0.1,
+    "width": 0.84,
+    "height": 0.5,
+    "color": "#2EE59D",
+    "stroke": 12,
+    "glow": true,
+    "markers": true,
+    "style": "double"
+  },
+  "texts": [
+    {
+      "text": "{TITLE}",
+      "left": 0.08,
+      "top": 0.055,
+      "size": 30,
+      "color": "#2EE59D",
+      "font": "mono",
+      "editable": true,
+      "maxWidth": 0.55
+    },
+    {
+      "text": "{DATE}",
+      "left": 0.92,
+      "top": 0.055,
+      "size": 30,
+      "color": "#2EE59D",
+      "font": "mono",
+      "align": "right"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "hero",
+      "left": 0.08,
+      "top": 0.65,
+      "valueSize": 180,
+      "labelSize": 24,
+      "color": "#FFFFFF",
+      "unitScale": 0.28
+    },
+    {
+      "stat": "second",
+      "left": 0.08,
+      "top": 0.84,
+      "valueSize": 56,
+      "labelSize": 20,
+      "color": "#2EE59D",
+      "font": "mono",
+      "unitScale": 0.5
+    },
+    {
+      "stat": "third",
+      "left": 0.4,
+      "top": 0.84,
+      "valueSize": 56,
+      "labelSize": 20,
+      "color": "#2EE59D",
+      "font": "mono",
+      "unitScale": 0.5
+    },
+    {
+      "stat": "fourth",
+      "left": 0.72,
+      "top": 0.84,
+      "valueSize": 56,
+      "labelSize": 20,
+      "color": "#2EE59D",
+      "font": "mono",
+      "unitScale": 0.5
+    }
+  ]
+}

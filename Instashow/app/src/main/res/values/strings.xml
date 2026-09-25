@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Instashow</string>
+
+    <!-- Welcome -->
+    <string name="welcome_headline">YOUR WORK.\nYOUR STORY.</string>
+    <string name="welcome_body">Turn today\'s steps, runs and rides into a story worth posting. Your data stays on this phone.</string>
+    <string name="get_started">Get started</string>
+    <string name="sign_in_button">Continue with Google</string>
+    <string name="sign_in_optional">Optional. Nothing in the app needs an account.</string>
+    <string name="sign_in_missing_client">Google sign-in needs a web client id. Add GOOGLE_WEB_CLIENT_ID to local.properties, then rebuild.</string>
+    <string name="sign_in_no_account">No Google account is available on this device.</string>
+    <string name="sign_in_failed">Google sign-in didn\'t complete. Try again.</string>
+    <string name="signed_in">Signed in</string>
+    <string name="signed_in_body">Signed in with Google</string>
+    <string name="sign_out">Sign out</string>
+
+    <!-- Home -->
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="greeting_night">Late one</string>
+    <string name="of_goal">of %1$s</string>
+    <string name="create_today_story">Create today\'s story</string>
+    <string name="todays_workouts">Today\'s workouts</string>
+    <string name="no_workouts">Workouts you record today in apps like Fitbit, Samsung Health, Strava or your watch app show up here, and on today\'s story.</string>
+    <string name="unlock_stats">Unlock more stats</string>
+    <string name="unlock_stats_body">Allow workouts, heart rate, sleep, floors and calories so today\'s story can show all of it.</string>
+    <string name="add_route">Add route</string>
+    <string name="sample_data_on">Showing sample data</string>
+    <string name="health_unavailable">Health Connect isn\'t available on this device. You can still make a story.</string>
+    <string name="health_update">Install or update Health Connect to read today\'s stats.</string>
+    <string name="health_permission">Allow Health Connect access to put your steps, distance and workouts on your stories.</string>
+    <string name="health_allow">Allow health access</string>
+    <string name="health_install">Install Health Connect</string>
+    <string name="health_error">Couldn\'t read today\'s stats. You can still make a story.</string>
+
+    <!-- Photo source -->
+    <string name="photo_title">Pick a backdrop</string>
+    <string name="story_for_today">For today\'s story</string>
+    <string name="take_photo">Take a photo</string>
+    <string name="take_photo_body">Post-workout selfie, the view, the shoes</string>
+    <string name="choose_photo">Choose from gallery</string>
+    <string name="choose_photo_body">Any photo from your library</string>
+    <string name="no_photo">No photo</string>
+    <string name="no_photo_body">Bold gradient designs that put the numbers first</string>
+    <string name="photo_unreadable">Couldn\'t use that photo.</string>
+    <string name="photo_camera_missing">No camera app is available. Choose a photo from the gallery instead.</string>
+
+    <!-- Preview -->
+    <string name="todays_story">Today\'s story</string>
+    <string name="instagram">Instagram</string>
+    <string name="save_story">Save</string>
+    <string name="share_story">Share</string>
+    <string name="edit_story">Edit</string>
+    <string name="share_chooser">Share story</string>
+    <string name="share_failed">Couldn\'t share that story.</string>
+    <string name="saved_to_gallery">Saved to Pictures/Instashow</string>
+    <string name="save_failed">Couldn\'t save that story.</string>
+    <string name="storage_permission">Allow storage access to save the story.</string>
+    <string name="catalog_empty">No templates are available.</string>
+    <string name="render_failed">Couldn\'t build that story.</string>
+    <string name="instagram_failed">Couldn\'t open Instagram. Try Save or Share instead.</string>
+
+    <!-- Editor -->
+    <string name="tab_text">Text</string>
+    <string name="tab_size">Size</string>
+    <string name="tab_color">Color</string>
+    <string name="done">Done</string>
+    <string name="tab_frame">Frame</string>
+    <string name="headline">Headline</string>
+    <string name="caption">Caption</string>
+    <string name="text_applies_all">Applies to every design. Clear it to hide the line.</string>
+    <string name="no_headline">This design has no text to change. Swipe to another one to add your own words.</string>
+    <string name="reset">Reset</string>
+    <string name="apply">Apply</string>
+    <string name="clear">Clear</string>
+    <string name="smaller_text">Smaller text</string>
+    <string name="larger_text">Larger text</string>
+    <string name="text_color">Text color</string>
+    <string name="color_auto">Auto</string>
+    <string name="frame">Frame</string>
+    <string name="frame_body">Put the story on a colored border</string>
+    <string name="image_size">Image size</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="units">Units</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="miles">Miles</string>
+    <string name="step_goal">Daily step goal</string>
+    <string name="step_goal_body">Used for the goal ring and the percentage on your story.</string>
+    <string name="sample_data">Sample data</string>
+    <string name="sample_data_body">Debug builds only. Try every design without Health Connect data.</string>
+    <string name="health_access">Health data</string>
+    <string name="health_access_body">Choose which stats appear on your stories</string>
+    <string name="about_row_body">Where the numbers come from</string>
+    <string name="back">Back</string>
+
+    <string-array name="motivation">
+        <item>Show up. That is the rep.</item>
+        <item>You already started.</item>
+        <item>One more minute.</item>
+        <item>Keep the promise you made this morning.</item>
+        <item>Strong is a habit.</item>
+        <item>Earn the evening.</item>
+        <item>Small work. Real change.</item>
+        <item>You came back. That counts.</item>
+        <item>Move first.</item>
+        <item>The hard part was starting.</item>
+    </string-array>
+
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_source_title">Source</string>
+    <string name="about_source_body">Your numbers are read from Health Connect on this phone. The app doesn\'t use a server and never uploads your health data. Signing in is optional and doesn\'t download your stats.</string>
+    <string name="about_window_title">Time window</string>
+    <string name="about_window_body">Today covers midnight until now in this phone\'s time zone. Sleep counts from 6 PM yesterday, so last night is included. Home reads again when you open it and when you pull down from the top.</string>
+    <string name="about_permission_title">Permissions</string>
+    <string name="about_permission_body">The app asks to read steps, distance, calories, workouts, heart rate, floors, elevation and sleep. Only the types you allow are read, and a stat your phone didn\'t record stays off your story.</string>
+    <string name="about_steps_title">Steps and goal</string>
+    <string name="about_steps_body">The step total Health Connect adds up for today, and how far that is toward your daily step goal.</string>
+    <string name="about_distance_title">Distance</string>
+    <string name="about_distance_body">The distance total from Health Connect, shown in kilometers or miles depending on your setting.</string>
+    <string name="about_workouts_title">Workouts and routes</string>
+    <string name="about_workouts_body">Today\'s workouts, with the distance, calories, heart rate, elevation and steps recorded during each one. Today\'s story lists them all. Health Connect asks before sharing a GPS route, one workout at a time.</string>
+    <string name="about_instagram_title">Instagram</string>
+    <string name="about_instagram_body">Posting opens Instagram\'s own story composer with your design or a stats sticker. Nothing is posted until you tap share in Instagram.</string>
+</resources>

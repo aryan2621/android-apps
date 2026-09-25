@@ -1,0 +1,95 @@
+{
+  "id": "full-day",
+  "name": "Full Day",
+  "statsOptional": false,
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#1B1F0C",
+      "#0B0B0D",
+      "#0B0B0D"
+    ],
+    "angle": 180
+  },
+  "photo": {
+    "shape": "none",
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1
+  },
+  "shapes": [
+    {
+      "type": "grid",
+      "left": 0,
+      "top": 0,
+      "width": 1,
+      "height": 0.36,
+      "color": "#D7FF3A",
+      "alpha": 0.05,
+      "count": 12,
+      "layer": "back"
+    }
+  ],
+  "texts": [
+    {
+      "text": "TODAY · {DATE}",
+      "left": 0.07,
+      "top": 0.055,
+      "size": 30,
+      "color": "#0B0B0D",
+      "font": "bold",
+      "tracking": 0.12,
+      "pill": "#D7FF3A"
+    },
+    {
+      "text": "{GOALNUM}% OF DAILY GOAL",
+      "left": 0.07,
+      "top": 0.325,
+      "size": 30,
+      "color": "#D7FF3A",
+      "font": "bold",
+      "tracking": 0.14,
+      "modes": [
+        "day"
+      ]
+    },
+    {
+      "text": "{workoutlist}",
+      "left": 0.07,
+      "top": 0.365,
+      "size": 34,
+      "color": "#FFFFFF",
+      "font": "medium",
+      "alpha": 0.8,
+      "maxWidth": 0.86
+    }
+  ],
+  "stats": [
+    {
+      "stat": "hero",
+      "left": 0.062,
+      "top": 0.1,
+      "valueSize": 290,
+      "labelSize": 36,
+      "color": "#FFFFFF",
+      "accent": "#D7FF3A",
+      "unitScale": 0.28
+    }
+  ],
+  "grid": {
+    "left": 0.07,
+    "top": 0.44,
+    "width": 0.86,
+    "columns": 2,
+    "rows": 5,
+    "rowHeight": 0.1,
+    "valueSize": 96,
+    "labelSize": 24,
+    "color": "#FFFFFF",
+    "accent": "#D7FF3A",
+    "unitScale": 0.36,
+    "divider": "#26FFFFFF"
+  },
+  "minStats": 5
+}

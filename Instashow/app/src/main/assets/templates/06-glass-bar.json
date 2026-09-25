@@ -1,0 +1,16 @@
+{
+  "id": "glass-bar",
+  "name": "Glass",
+  "background": { "type": "gradient", "colors": ["#FF8A5B", "#C2185B", "#3A0F4A"], "angle": 160 },
+  "photo": { "shape": "rect", "left": 0, "top": 0, "width": 1, "height": 1 },
+  "scrim": { "edge": "bottom", "height": 0.4, "color": "#000000", "maxAlpha": 0.55 },
+  "quote": { "text": "EARNED IT", "caption": "{title} · {date}", "left": 0.07, "top": 0.64, "size": 120, "color": "#FFFFFF", "style": "display", "tracking": 0.01 },
+  "panels": [
+    { "left": 0.05, "top": 0.8, "width": 0.9, "height": 0.14, "radius": 48, "fill": "#FFFFFF", "fillAlpha": 0.16, "stroke": "#FFFFFF", "strokeAlpha": 0.4, "blur": true }
+  ],
+  "stats": [
+    { "stat": "hero", "left": 0.2, "top": 0.822, "valueSize": 70, "labelSize": 20, "color": "#FFFFFF", "align": "center", "unitScale": 0.36 },
+    { "stat": "second", "left": 0.5, "top": 0.822, "valueSize": 70, "labelSize": 20, "color": "#FFFFFF", "align": "center", "unitScale": 0.36 },
+    { "stat": "third", "left": 0.8, "top": 0.822, "valueSize": 70, "labelSize": 20, "color": "#FFFFFF", "align": "center", "unitScale": 0.36 }
+  ]
+}

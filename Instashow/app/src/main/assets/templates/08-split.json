@@ -1,0 +1,86 @@
+{
+  "id": "split",
+  "needsPhoto": true,
+  "name": "Split",
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#D7FF3A",
+      "#9BE22A"
+    ],
+    "angle": 135
+  },
+  "photo": {
+    "shape": "rect",
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 0.6
+  },
+  "panels": [
+    {
+      "left": 0,
+      "top": 0.6,
+      "width": 1,
+      "height": 0.4,
+      "radius": 0,
+      "fill": "#0B0B0D",
+      "fillAlpha": 1,
+      "stroke": "#0B0B0D",
+      "strokeAlpha": 0,
+      "blur": false
+    }
+  ],
+  "texts": [
+    {
+      "text": "{TITLE}",
+      "editable": true,
+      "left": 0.07,
+      "top": 0.64,
+      "size": 34,
+      "color": "#D7FF3A",
+      "font": "bold",
+      "tracking": 0.18,
+      "maxWidth": 0.55
+    },
+    {
+      "text": "{date}",
+      "left": 0.93,
+      "top": 0.64,
+      "size": 30,
+      "color": "#FFFFFF",
+      "font": "medium",
+      "alpha": 0.6,
+      "align": "right"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "hero",
+      "left": 0.065,
+      "top": 0.675,
+      "valueSize": 200,
+      "labelSize": 0,
+      "color": "#FFFFFF",
+      "unitScale": 0.3
+    },
+    {
+      "stat": "second",
+      "left": 0.07,
+      "top": 0.86,
+      "valueSize": 62,
+      "labelSize": 22,
+      "color": "#FFFFFF",
+      "unitScale": 0.4
+    },
+    {
+      "stat": "third",
+      "left": 0.52,
+      "top": 0.86,
+      "valueSize": 62,
+      "labelSize": 22,
+      "color": "#FFFFFF",
+      "unitScale": 0.4
+    }
+  ]
+}

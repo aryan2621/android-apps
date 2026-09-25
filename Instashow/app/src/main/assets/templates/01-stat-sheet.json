@@ -1,0 +1,78 @@
+{
+  "id": "stat-sheet",
+  "name": "Stat Sheet",
+  "needsPhoto": true,
+  "background": {
+    "type": "solid",
+    "colors": [
+      "#0B0B0D"
+    ]
+  },
+  "photo": {
+    "shape": "rect",
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 0.5
+  },
+  "texts": [
+    {
+      "text": "{DATE}",
+      "left": 0.05,
+      "top": 0.03,
+      "size": 26,
+      "color": "#0B0B0D",
+      "font": "bold",
+      "tracking": 0.12,
+      "pill": "#D7FF3A"
+    },
+    {
+      "text": "{TITLE}",
+      "editable": true,
+      "left": 0.93,
+      "top": 0.535,
+      "size": 30,
+      "color": "#D7FF3A",
+      "font": "bold",
+      "tracking": 0.16,
+      "align": "right",
+      "maxWidth": 0.4
+    },
+    {
+      "text": "{workoutlist}",
+      "left": 0.065,
+      "top": 0.695,
+      "size": 28,
+      "color": "#FFFFFF",
+      "font": "medium",
+      "alpha": 0.7,
+      "maxWidth": 0.87
+    }
+  ],
+  "stats": [
+    {
+      "stat": "hero",
+      "left": 0.06,
+      "top": 0.525,
+      "valueSize": 180,
+      "labelSize": 26,
+      "color": "#FFFFFF",
+      "accent": "#D7FF3A",
+      "unitScale": 0.3
+    }
+  ],
+  "grid": {
+    "left": 0.065,
+    "top": 0.745,
+    "width": 0.87,
+    "columns": 3,
+    "rows": 2,
+    "rowHeight": 0.105,
+    "valueSize": 64,
+    "labelSize": 20,
+    "color": "#FFFFFF",
+    "unitScale": 0.4,
+    "divider": "#26FFFFFF"
+  },
+  "minStats": 4
+}

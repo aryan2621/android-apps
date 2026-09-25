@@ -1,0 +1,94 @@
+{
+  "id": "goal-ring",
+  "name": "Goal Ring",
+  "modes": [
+    "day"
+  ],
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#0F2E24",
+      "#0B0B0D"
+    ],
+    "angle": 180
+  },
+  "photo": {
+    "shape": "rect",
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1
+  },
+  "filter": "none",
+  "rings": [
+    {
+      "stat": "goal",
+      "centerX": 0.22,
+      "centerY": 0.82,
+      "radius": 0.14,
+      "stroke": 22,
+      "color": "#D7FF3A",
+      "track": "#FFFFFF",
+      "trackAlpha": 0.22
+    }
+  ],
+  "texts": [
+    {
+      "text": "{DAY}",
+      "left": 0.07,
+      "top": 0.06,
+      "size": 30,
+      "color": "#FFFFFF",
+      "font": "bold",
+      "tracking": 0.24,
+      "shadow": true
+    }
+  ],
+  "stats": [
+    {
+      "stat": "goal",
+      "left": 0.22,
+      "top": 0.793,
+      "valueSize": 64,
+      "labelSize": 0,
+      "color": "#FFFFFF",
+      "align": "center",
+      "unitScale": 0.45
+    },
+    {
+      "stat": "steps",
+      "label": "STEPS",
+      "left": 0.44,
+      "top": 0.745,
+      "valueSize": 110,
+      "labelSize": 22,
+      "color": "#FFFFFF",
+      "accent": "#D7FF3A",
+      "shadow": true
+    },
+    {
+      "stat": "distance",
+      "left": 0.44,
+      "top": 0.855,
+      "valueSize": 52,
+      "labelSize": 18,
+      "color": "#FFFFFF",
+      "unitScale": 0.4
+    },
+    {
+      "stat": "calories",
+      "left": 0.7,
+      "top": 0.855,
+      "valueSize": 52,
+      "labelSize": 18,
+      "color": "#FFFFFF",
+      "unitScale": 0.4
+    }
+  ],
+  "scrim": {
+    "edge": "bottom",
+    "height": 0.42,
+    "color": "#000000",
+    "maxAlpha": 0.75
+  }
+}

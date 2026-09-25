@@ -1,0 +1,68 @@
+{
+  "id": "side-panel",
+  "name": "Side Panel",
+  "needsPhoto": true,
+  "background": {
+    "type": "solid",
+    "colors": [
+      "#F2EFE6"
+    ]
+  },
+  "photo": {
+    "shape": "rect",
+    "left": 0,
+    "top": 0,
+    "width": 0.58,
+    "height": 1
+  },
+  "texts": [
+    {
+      "text": "{DATE}",
+      "left": 0.62,
+      "top": 0.045,
+      "size": 26,
+      "color": "#0B0B0D",
+      "font": "bold",
+      "tracking": 0.12,
+      "maxWidth": 0.34
+    },
+    {
+      "text": "{TITLE}",
+      "editable": true,
+      "left": 0.62,
+      "top": 0.94,
+      "size": 26,
+      "color": "#FF5A1F",
+      "font": "bold",
+      "tracking": 0.14,
+      "maxWidth": 0.34
+    }
+  ],
+  "stats": [
+    {
+      "stat": "hero",
+      "left": 0.62,
+      "top": 0.075,
+      "valueSize": 130,
+      "labelSize": 22,
+      "color": "#0B0B0D",
+      "accent": "#FF5A1F",
+      "unitScale": 0.34
+    }
+  ],
+  "grid": {
+    "left": 0.62,
+    "top": 0.2,
+    "width": 0.34,
+    "columns": 1,
+    "rows": 7,
+    "rowHeight": 0.1,
+    "valueSize": 72,
+    "labelSize": 20,
+    "color": "#0B0B0D",
+    "accent": "#FF5A1F",
+    "unitScale": 0.38,
+    "divider": "#260B0B0D"
+  },
+  "minStats": 4
+}

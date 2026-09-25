@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application>
+        <!-- Debug only: adb shell am broadcast -n com.instashow/.debug.RenderAllReceiver -->
+        <receiver
+            android:name=".debug.RenderAllReceiver"
+            android:exported="true" />
+    </application>
+</manifest>

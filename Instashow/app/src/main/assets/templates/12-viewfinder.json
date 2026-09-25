@@ -1,0 +1,180 @@
+{
+  "id": "viewfinder",
+  "name": "Viewfinder",
+  "statsOptional": true,
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#2B3440",
+      "#0B0B0D"
+    ],
+    "angle": 170
+  },
+  "photo": {
+    "shape": "rect",
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1
+  },
+  "scrim": {
+    "edge": "bottom",
+    "height": 0.3,
+    "color": "#000000",
+    "maxAlpha": 0.55
+  },
+  "shapes": [
+    {
+      "type": "line",
+      "left": 0.05,
+      "top": 0.045,
+      "width": 0.1,
+      "height": 0,
+      "color": "#FFFFFF",
+      "stroke": 5
+    },
+    {
+      "type": "line",
+      "left": 0.05,
+      "top": 0.045,
+      "width": 0,
+      "height": 0.056,
+      "color": "#FFFFFF",
+      "stroke": 5
+    },
+    {
+      "type": "line",
+      "left": 0.85,
+      "top": 0.045,
+      "width": 0.1,
+      "height": 0,
+      "color": "#FFFFFF",
+      "stroke": 5
+    },
+    {
+      "type": "line",
+      "left": 0.95,
+      "top": 0.045,
+      "width": 0,
+      "height": 0.056,
+      "color": "#FFFFFF",
+      "stroke": 5
+    },
+    {
+      "type": "line",
+      "left": 0.05,
+      "top": 0.955,
+      "width": 0.1,
+      "height": 0,
+      "color": "#FFFFFF",
+      "stroke": 5
+    },
+    {
+      "type": "line",
+      "left": 0.05,
+      "top": 0.8989999999999999,
+      "width": 0,
+      "height": 0.056,
+      "color": "#FFFFFF",
+      "stroke": 5
+    },
+    {
+      "type": "line",
+      "left": 0.85,
+      "top": 0.955,
+      "width": 0.1,
+      "height": 0,
+      "color": "#FFFFFF",
+      "stroke": 5
+    },
+    {
+      "type": "line",
+      "left": 0.95,
+      "top": 0.8989999999999999,
+      "width": 0,
+      "height": 0.056,
+      "color": "#FFFFFF",
+      "stroke": 5
+    },
+    {
+      "type": "circle",
+      "left": 0.085,
+      "top": 0.078,
+      "width": 0.022,
+      "height": 0.0124,
+      "color": "#FF3B30"
+    }
+  ],
+  "texts": [
+    {
+      "text": "REC",
+      "left": 0.108,
+      "top": 0.075,
+      "size": 28,
+      "color": "#FFFFFF",
+      "font": "mono",
+      "shadow": true,
+      "pill": "#000000",
+      "pillAlpha": 0.35
+    },
+    {
+      "text": "{DATE}",
+      "left": 0.915,
+      "top": 0.075,
+      "size": 28,
+      "color": "#FFFFFF",
+      "font": "mono",
+      "align": "right",
+      "shadow": true,
+      "pill": "#000000",
+      "pillAlpha": 0.35
+    },
+    {
+      "text": "{TITLE}",
+      "left": 0.085,
+      "top": 0.815,
+      "size": 30,
+      "color": "#FFFFFF",
+      "font": "mono",
+      "shadow": true,
+      "editable": true,
+      "maxWidth": 0.5
+    }
+  ],
+  "stats": [
+    {
+      "stat": "hero",
+      "left": 0.08,
+      "top": 0.84,
+      "valueSize": 120,
+      "labelSize": 0,
+      "color": "#FFFFFF",
+      "unitScale": 0.3,
+      "shadow": true
+    },
+    {
+      "stat": "second",
+      "left": 0.92,
+      "top": 0.83,
+      "valueSize": 48,
+      "labelSize": 18,
+      "color": "#FFFFFF",
+      "align": "right",
+      "font": "mono",
+      "unitScale": 0.5,
+      "shadow": true
+    },
+    {
+      "stat": "third",
+      "left": 0.92,
+      "top": 0.885,
+      "valueSize": 48,
+      "labelSize": 18,
+      "color": "#FFFFFF",
+      "align": "right",
+      "font": "mono",
+      "unitScale": 0.5,
+      "shadow": true
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "big-steps",
+  "name": "Big Steps",
+  "modes": [
+    "day"
+  ],
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#1F3BFF",
+      "#7C5CFF",
+      "#0B0B0D"
+    ],
+    "angle": 170
+  },
+  "photo": {
+    "shape": "rect",
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1
+  },
+  "scrim": {
+    "edge": "top",
+    "height": 0.5,
+    "color": "#000000",
+    "maxAlpha": 0.7
+  },
+  "texts": [
+    {
+      "text": "TODAY · {DATE}",
+      "left": 0.07,
+      "top": 0.06,
+      "size": 30,
+      "color": "#FFFFFF",
+      "font": "bold",
+      "tracking": 0.16,
+      "alpha": 0.85
+    }
+  ],
+  "stats": [
+    {
+      "stat": "steps",
+      "label": "STEPS",
+      "left": 0.06,
+      "top": 0.09,
+      "valueSize": 300,
+      "labelSize": 36,
+      "color": "#FFFFFF",
+      "accent": "#D7FF3A"
+    },
+    {
+      "stat": "distance",
+      "left": 0.66,
+      "top": 0.79,
+      "valueSize": 64,
+      "labelSize": 20,
+      "color": "#FFFFFF",
+      "unitScale": 0.4
+    },
+    {
+      "stat": "calories",
+      "left": 0.66,
+      "top": 0.87,
+      "valueSize": 64,
+      "labelSize": 20,
+      "color": "#FFFFFF",
+      "unitScale": 0.4
+    },
+    {
+      "stat": "goal",
+      "left": 0.09,
+      "top": 0.79,
+      "valueSize": 64,
+      "labelSize": 20,
+      "color": "#FFFFFF",
+      "unitScale": 0.4
+    },
+    {
+      "stat": "exercise",
+      "left": 0.09,
+      "top": 0.87,
+      "valueSize": 64,
+      "labelSize": 20,
+      "color": "#FFFFFF",
+      "unitScale": 0.4
+    }
+  ],
+  "panels": [
+    {
+      "left": 0.05,
+      "top": 0.77,
+      "width": 0.9,
+      "height": 0.19,
+      "radius": 48,
+      "fill": "#000000",
+      "fillAlpha": 0.3,
+      "stroke": "#FFFFFF",
+      "strokeAlpha": 0.22,
+      "blur": true
+    }
+  ],
+  "minStats": 2
+}

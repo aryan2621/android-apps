@@ -1,0 +1,110 @@
+{
+  "id": "cinematic",
+  "needsPhoto": true,
+  "name": "Cinematic",
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#2B2B2B",
+      "#0B0B0D"
+    ],
+    "angle": 180
+  },
+  "photo": {
+    "shape": "rect",
+    "left": 0,
+    "top": 0.1,
+    "width": 1,
+    "height": 0.8
+  },
+  "filter": "fade",
+  "panels": [
+    {
+      "left": 0,
+      "top": 0,
+      "width": 1,
+      "height": 0.1,
+      "radius": 0,
+      "fill": "#000000",
+      "fillAlpha": 1,
+      "stroke": "#000000",
+      "strokeAlpha": 0,
+      "blur": false
+    },
+    {
+      "left": 0,
+      "top": 0.9,
+      "width": 1,
+      "height": 0.1,
+      "radius": 0,
+      "fill": "#000000",
+      "fillAlpha": 1,
+      "stroke": "#000000",
+      "strokeAlpha": 0,
+      "blur": false
+    }
+  ],
+  "scrim": {
+    "edge": "bottom",
+    "height": 0.5,
+    "color": "#000000",
+    "maxAlpha": 0.8
+  },
+  "quote": {
+    "text": "ONE MORE",
+    "caption": "Then one more after that.",
+    "left": 0.5,
+    "top": 0.6,
+    "size": 64,
+    "color": "#FFFFFF",
+    "align": "center",
+    "tracking": 0.12,
+    "style": "bold"
+  },
+  "texts": [
+    {
+      "text": "{TITLE} · {DATE}",
+      "left": 0.5,
+      "top": 0.935,
+      "size": 24,
+      "color": "#FFFFFF",
+      "font": "bold",
+      "tracking": 0.3,
+      "align": "center",
+      "alpha": 0.7
+    }
+  ],
+  "stats": [
+    {
+      "stat": "hero",
+      "left": 0.5,
+      "top": 0.68,
+      "valueSize": 120,
+      "labelSize": 22,
+      "color": "#FFFFFF",
+      "align": "center",
+      "unitScale": 0.3
+    },
+    {
+      "stat": "second",
+      "left": 0.3,
+      "top": 0.8,
+      "valueSize": 56,
+      "labelSize": 20,
+      "color": "#FFFFFF",
+      "align": "center",
+      "unitScale": 0.4
+    },
+    {
+      "stat": "third",
+      "left": 0.7,
+      "top": 0.8,
+      "valueSize": 56,
+      "labelSize": 20,
+      "color": "#FFFFFF",
+      "align": "center",
+      "unitScale": 0.4
+    }
+  ],
+  "statsOptional": true
+}

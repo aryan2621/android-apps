@@ -1,0 +1,71 @@
+{
+  "id": "polaroid",
+  "name": "Polaroid",
+  "needsPhoto": true,
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#E9E4DA",
+      "#CFC6B6"
+    ]
+  },
+  "photo": {
+    "shape": "rect",
+    "left": 0.13,
+    "top": 0.1,
+    "width": 0.74,
+    "height": 0.5,
+    "rotate": -3,
+    "border": "#FFFFFF",
+    "borderWidth": 30,
+    "shadow": true
+  },
+  "filter": "warm",
+  "texts": [
+    {
+      "text": "{title}",
+      "left": 0.5,
+      "top": 0.665,
+      "size": 96,
+      "color": "#2A2A2A",
+      "font": "serif",
+      "align": "center",
+      "rotate": -2,
+      "editable": true
+    },
+    {
+      "text": "{LONGDATE}",
+      "left": 0.5,
+      "top": 0.74,
+      "size": 24,
+      "color": "#2A2A2A",
+      "font": "bold",
+      "align": "center",
+      "tracking": 0.2,
+      "alpha": 0.55
+    }
+  ],
+  "stats": [
+    {
+      "stat": "hero",
+      "left": 0.3,
+      "top": 0.8,
+      "valueSize": 96,
+      "labelSize": 20,
+      "color": "#2A2A2A",
+      "align": "center",
+      "unitScale": 0.34
+    },
+    {
+      "stat": "second",
+      "left": 0.7,
+      "top": 0.8,
+      "valueSize": 96,
+      "labelSize": 20,
+      "color": "#2A2A2A",
+      "align": "center",
+      "unitScale": 0.34
+    }
+  ],
+  "statsOptional": true
+}

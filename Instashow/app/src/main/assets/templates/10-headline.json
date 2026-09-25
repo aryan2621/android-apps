@@ -1,0 +1,70 @@
+{
+  "id": "headline",
+  "name": "Headline",
+  "statsOptional": true,
+  "background": {
+    "type": "gradient",
+    "colors": [
+      "#FF6B3D",
+      "#7C1D6F"
+    ],
+    "angle": 165
+  },
+  "photo": {
+    "shape": "rect",
+    "left": 0,
+    "top": 0,
+    "width": 1,
+    "height": 1
+  },
+  "scrim": {
+    "edge": "bottom",
+    "height": 0.45,
+    "color": "#000000",
+    "maxAlpha": 0.6
+  },
+  "texts": [
+    {
+      "text": "{TITLE}",
+      "left": 0.06,
+      "top": 0.06,
+      "size": 28,
+      "color": "#0B0B0D",
+      "font": "bold",
+      "pill": "#FFFFFF",
+      "tracking": 0.12,
+      "editable": true,
+      "maxWidth": 0.6
+    },
+    {
+      "text": "{HEROWORDS}.",
+      "left": 0.06,
+      "top": 0.63,
+      "size": 130,
+      "color": "#FFFFFF",
+      "font": "display",
+      "shadow": true,
+      "maxWidth": 0.88
+    },
+    {
+      "text": "{second}.",
+      "left": 0.06,
+      "top": 0.72,
+      "size": 130,
+      "color": "#FFFFFF",
+      "font": "display",
+      "shadow": true,
+      "maxWidth": 0.88
+    },
+    {
+      "text": "DONE.",
+      "left": 0.06,
+      "top": 0.81,
+      "size": 130,
+      "color": "#D7FF3A",
+      "font": "display",
+      "shadow": true
+    }
+  ],
+  "stats": []
+}
